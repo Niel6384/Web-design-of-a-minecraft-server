@@ -1,0 +1,169 @@
+body {
+  font-family: "urbane", sans-serif;
+}
+img {
+  max-width: 100%;
+}
+h1 {
+  margin-top: 0px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0px auto;
+  padding: 0px 30px;
+}
+
+.bg--black {
+  background-color: #1d1d1d;
+}
+
+.Text--white {
+  color: white;
+}
+
+.Text--center {
+  text-align: center;
+}
+
+/* Hero styling */
+.Hero {
+  padding-top: 125px;
+  padding-bottom: 50px;
+}
+
+.Hero_container {
+  background-image: url("../assets/nk-lines.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 95% bottom;
+  padding-bottom: 100px;
+}
+.Hero__above {
+  color: green;
+  font-size: 13px;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 5px;
+  margin-top: 0;
+}
+
+.Hero__title {
+  font-size: 50px;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+
+.Hero__under-title {
+  font-weight: 200;
+  font-style: italic;
+  font-size: 35px;
+  letter-spacing: 0px;
+  margin-top: 0px;
+}
+
+.Hero__link {
+  margin-top: 60px;
+}
+.Hero__below {
+  color: green;
+}
+
+.bg--grey {
+  background-color: #f2f2f2;
+}
+.Text--black {
+  color: #1d1d1d;
+}
+
+.Button {
+  color: #fff;
+  border: 3px solid #fff;
+  font-size: 20px;
+  display: inline-block;
+  padding: 7px 30px;
+  text-decoration: none;
+}
+
+.Button--small {
+  font-size: 15px;
+  padding: 5px 20px;
+}
+
+.Button--black {
+  color: #1d1d1d;
+  border-color: #1d1d1d;
+}
+
+.Button--filled {
+  background-color: white;
+  color: #1d1d1d;
+}
+.Button--black_filled {
+  background-color: #1d1d1d;
+  color: #fff;
+  border-color: #1d1d1d;
+}
+.Button--card {
+  margin-top: 20px;
+}
+
+.Content {
+  padding: 0px auto;
+  padding-top: 30px;
+  padding-left: 10px;
+}
+
+.Content_container {
+  padding-top: 10px;
+  max-width: 1000px;
+}
+
+.Content_above {
+  margin: unset;
+  font-weight: 300;
+  font-size: 33px;
+}
+
+.Content_title {
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.column {
+  float: left;
+  width: 100%;
+  padding-left: 30px;
+  margin-bottom: 30px;
+}
+.column-one-third {
+  width: 33.3333333%;
+}
+
+.column-one-half {
+  width: 50%;
+}
+
+.column-float-right {
+  float: right;
+}
+
+.row {
+  float: left;
+  width: 100;
+  margin-left: -30px;
+}
+
+.bg--brown {
+  background-color: saddlebrown;
+}
+
+.Card_title {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.Card_desc {
+  line-height: 25px;
+}
